@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Aarhus sound system">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarhus sound system</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Antic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    
+</head>
+
+<body >
+        
+           <div class="topnav" id="myTopnav" >
+            <a href="index.html"><img src="images/5.logo-lille.png" class="logo" alt="logo"></a>
+            <div class="top-nav">
+                    <a href="index.html" class="active"><i class="fa fa-home"></i></a>
+                    
+            
+                <a href="about.html">About us</a>
+                <a href="products.html">Products</a>
+                    <div class="dropdown">
+                            <button onclick="location.href='scrent.html'" type="button" class="dropbtn">
+                                    Scene rental
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                        <div class="dropdown-content">
+                        <a href="bigevent.html">Setup for the big event</a>
+                        <a href="standart.html">Standart setup</a>
+                        <a href="3setup.html">3 setup</a>
+                        </div>
+                    </div> 
+                <a href="news.html">News</a>
+                </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+     
+
+<button onclick="topFunction()" id="myBtn" title="Go to top" ><img src="images/cd-top-arrow.svg" alt="arrow"></button>
+
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="cart" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted"   value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_viewcart_SM.gif" border="0" name="submit" align="right" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+
+<div class="product-shop">
+
+<div class="card">
+      <img src="images/diffuser.png" alt="acoustic diffuser" style="width:100%" alt="diffusor">
+      <h1>Acoustic diffuser</h1>
+      <p class="price">from 100 dkk</p>
+      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="P33HAGH99YGE8">
+<table>
+<tr><td><input type="hidden" name="on0" value="Size"  >Size</td></tr><tr><td><select name="os0" >
+	<option value="20cmX50cm">20cmX50cm 100,00 DKK</option>
+	<option value="50cmX50cm">50cmX50cm 300,00 DKK</option>
+	<option value="75cmX50cm">75cmX50cm 500,00 DKK</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="DKK">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img  border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="paypal" width="1" height="1">
+</form>
+    </div>
+              <ul >
+      
+                  <li>20 X 50</li>
+            <li>Perfect for small rooms</li>
+            <li>Offers a small range of diffusion from low to mid range</li>
+            <li>Should be placed about two meters from the listening position</li>
+            <li>Recommended placement behind the listener or on the ceiling just above the listening location</li>
+                  <li>50 X 50</li>
+            <li>Medium sized rooms</li>
+            <li>Offers a larger range of diffusion with the active region spanning more of the mid range as well as<br> sitting firmly in the low end frequencies</li>
+            <li>Should be placed about three meters from the listening position </li>
+            <li>Recommended placement positions behind the listener or behind the speakers</li>
+            <li>75 X 50<li>
+            <li>Large rooms </li>
+            <li>Offers a large range of diffusion with the active region going all the way<br> from low to high end frequencies</li>
+            <li>Should be placed about four meters from the listening position</li>
+            <li>Recommended placement positions behind the listener or behind the speakers</li>
+
+
+        </ul>
+
+
+<div class="product-text">
+    Spending all of your time and energy on speakers and equipment is not enough to get the perfect sound experience you need to have a perfect environment and since that's almost impossible to come across, sound diffuser is the next best thing.<br><br>
+Our acoustic sound diffusers are made from sustainable natural materials, with low to mid range being it's active region.
+It manipulates the way sound propagates through space, reducing the number of audible echos, thus giving the listener a feeling of a bigger listening space, where one can truly concentrate on the sound that's produced by the speakers.
+
+</div>
+
+</div>
+
+
+
+
+
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3><img src="images/logo.emblem.png" class="mini-logo" alt="logo"></h3>
+
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Karen Blixens Boulevard 7</span> 8220 Brabrand</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+45 28 192386</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:Info@aarhussoundsystem.dk">Info@aarhussoundsystem.dk</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				
+
+				<div class="footer-icons">
+
+					<a target="_blank" href="https://www.facebook.com/aarhussoundsystem/"><i class="fa fa-facebook"></i></a>
+					<a target="_blank" href="https://www.instagram.com/aarhussoundsystem/"><i class="fa fa-instagram"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/company/aarhus-soundsystem"><i class="fa fa-linkedin"></i></a>
+					
+
+				</div>
+
+			</div>
+
+		</footer>
+   
+      
+      
+      
+       
+       
+<script src="js/jquery.min.js"></script>
+      <script src="js/script-noslideshow.js"></script>
+        
+</body>
+
+</html>
